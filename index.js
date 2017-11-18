@@ -43,3 +43,10 @@ BoardMember.prototype.doCharity = function(){
   return "I like to help people"
 }
 
+BoardMember.prototype.releasePressStatement(){
+  return "You will see great things from Scuber."
+}
+
+BoardMember.prototype.sayHi(){
+  return `Hi, my name is ${this.name}  
+}
