@@ -48,5 +48,7 @@ BoardMember.prototype.releasePressStatement(){
 }
 
 BoardMember.prototype.sayHi(){
-  return `Hi, my name is ${this.name}  
-}
+  return `Hi, my name is ${this.name}. I am from ${this.state}, and I was trainted in ${this.training}.`
+  
+  
+  
