@@ -31,4 +31,6 @@ function BoardMember(name, homeState, training){
   
 }
 
-BoardMember.prototype.veto = function()
+BoardMember.prototype.veto = function(){
+  return
+}
